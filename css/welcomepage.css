@@ -1,0 +1,66 @@
+/* TAGS */
+
+section{
+    padding-top: 20px;
+}
+
+/* CAROUSAL */
+
+.carousel-caption {
+    position: absolute;
+    z-index: 1;
+    display:table;
+    width:100%;
+    height:100%;
+}
+
+.carousel-caption div {
+    display:table-cell;
+    vertical-align: middle;
+    text-align:center;
+}
+
+.trickcenter {
+    position: fixed;
+    top: 16%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Promise section */
+
+.promise-section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #e3e3e3;
+}
+
+.promise-heading{
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.card {
+    padding-top: 2rem;
+    letter-spacing: 1px;
+}
+
+
+.card .card-title {
+    text-transform: uppercase;
+}
+
+.card-icon{
+    font-size: 6rem;
+}
+
+
+.promise-heading{
+    opacity: 0;
+} 
+
+.card{
+    opacity: 0;
+    bottom: -100px;
+}
