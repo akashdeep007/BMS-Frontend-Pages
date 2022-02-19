@@ -1,0 +1,35 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+/* NAVBAR */
+
+.nav-container {
+  padding: 0%;
+}
+
+.logout-btn:hover {
+  background-color: #fff1ce;
+  color: #139487;
+}
+.row {
+  font-size: 18px;
+}
+.busFound {
+  color: #3e3e52;
+}
+.result-page {
+  padding-top: 15vh;
+  padding-left: 2vh;
+}
+.details {
+  margin-top: 5vh;
+  height: 120px;
+  width: 100%;
+  background-color: #f0f3f5;
+  /* background-color: #fff1ce; */
+}

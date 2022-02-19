@@ -1,0 +1,35 @@
+/* Primary color  */
+.bg-bms-primary {
+  background-color: #139487;
+}
+
+.text-bms-primary {
+  color: #139487;
+}
+
+/* Secondary color  */
+.bg-bms-secondary {
+  background-color: #fff1ce;
+}
+
+.text-bms-secondary {
+  color: #fff1ce;
+}
+
+/* Tertiary color  */
+.bg-bms-tertiary {
+  background-color: #86c6f4;
+}
+
+.text-bms-tertiary {
+  color: #86c6f4;
+}
+
+/* BMS Yellow color  */
+.bg-bms-yellow {
+  background-color: #d29d2b;
+}
+
+.text-bms-yellow {
+  color: #d29d2b;
+}
