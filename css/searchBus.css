@@ -129,4 +129,10 @@ body {
 
 .card{
     opacity: 0;
+    bottom: -100px;
+}
+
+
+.footer {
+  height: 100px;
 }
