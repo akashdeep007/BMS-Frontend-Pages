@@ -7,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/util.css">
+    <link rel="stylesheet" href="css/welcomepage.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
@@ -14,16 +18,20 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/util.css">
-    <link rel="stylesheet" href="css/welcomepage.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
     <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
     <script src="./js/welcomepage.js"></script>
+
     <title>BMS | Plan your journey</title>
 </head>
 
 <body>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <!-- NAVBAR -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-bms-primary">
         <div class="container nav-container">
@@ -168,7 +176,7 @@
     </div>
     <!-- 
     OUR DESCRIPTION -->
-    <div class="card">
+    <div class="card aos-init aos-animate" data-aos="fade-right" data-aos-delay="200">
         <div class="card-body">
             <h2 style="font-size: 1.5rem;" class="mb-4">The Best Way to Book Bus Ticket </h2>
             <p class="mt-3 ">Do you want to know the best way to book tickets online securely and how to book tickets in
@@ -203,7 +211,7 @@
                 reliable and comfortable journey as per your scheduled travel plan needs.</p>
         </div>
     </div>
-    <div class="card">
+    <div class="card aos-init aos-animate" data-aos="fade-left" data-aos-delay="400">
         <div class="card-body">
             <h2 style="font-size: 1.5rem;" class="mb-4 ">Why Choose BMS for Bus Ticket Booking? </h2>
             <p>BMS is India’s fastest growing online ticket booking platform offering bus ticket booking, train
@@ -232,7 +240,7 @@
             </ul>
         </div>
     </div>
-    <div class="card">
+    <div class="card aos-init aos-animate" data-aos="fade-right" data-aos-delay="600">
         <div class="card-body">
             <h2 style="font-size: 1.5rem;" class="mb-4 mt-5">Benefits of Booking Bus Tickets Online</h2>
             <p>In this day and age of technology, offline modes of bus ticket booking are no more a preference. Online
@@ -258,7 +266,7 @@
             </ul>
         </div>
     </div>
-    <div class="card">
+    <div class="card aos-init aos-animate" data-aos="fade-left" data-aos-delay="800">
         <div class="card-body">
             <h2 style="font-size: 1.5rem;" class="mb-4 mt-5">Offers on Bus Booking </h2>
             <p>Travellers can find exclusive <a href="https://www.BMS.com/bus-ticket-offers" target="_blank"
@@ -302,6 +310,8 @@
     <section class="footer bg-secondary text-center h-10">
         <h5>Footer</h5>
     </section>
+
+
 </body>
 
 </html>

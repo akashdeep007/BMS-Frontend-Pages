@@ -73,10 +73,10 @@ section{
 
 
 .promise-heading{
-    opacity: 0;
+    opacity: 1;
 } 
 
 .card{
-    opacity: 0;
+    opacity: 1;
     bottom: -100px;
 }
