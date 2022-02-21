@@ -6,6 +6,21 @@ section{
 
 /* CAROUSAL */
 
+.carousel .carousel-inner{
+    height:600px
+    }
+    .carousel-inner .carousel-item img{
+    min-height:200px;
+    object-fit:contain
+    }
+    
+    @media(max-width:768px){
+    .carousel .carousel-inner{
+    height:auto
+     }
+    }
+
+
 .carousel-caption {
     position: absolute;
     z-index: 1;
@@ -22,7 +37,7 @@ section{
 
 .trickcenter {
     position: fixed;
-    top: 16%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
