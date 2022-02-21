@@ -11,7 +11,8 @@ section{
     }
     .carousel-inner .carousel-item img{
     min-height:200px;
-    object-fit:contain
+    object-fit: cover;
+    object-position: top;
     }
     
     @media(max-width:768px){
