@@ -10,8 +10,17 @@ body {
 /* NAVBAR */
 /* --------------- */
 
+.navbar {
+  background: linear-gradient(140deg, #139487, #86c6f4);
+}
+
 .nav-container{
     padding: 0%;
+}
+
+.nav-link {
+  font-weight: bold;
+  
 }
 
 .logout-btn:hover {
@@ -104,7 +113,7 @@ body {
 
 .promise-heading{
     padding-bottom: 2rem;
-    text-transform: uppercase;
+    text-transform: capitalize;
     letter-spacing: 1px;
 }
 
@@ -120,6 +129,12 @@ body {
 
 .card-icon{
     font-size: 6rem;
+    background: linear-gradient(140deg, #139487, #86c6f4);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
 }
 
 
