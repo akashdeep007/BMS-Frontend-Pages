@@ -48,6 +48,10 @@ body {
     box-shadow: 2px 2px 5px #139487;
 }
 
+.info-placeholder{
+    padding-left: 5%;
+}
+
 .error {
     color: #e74c3c;
     font-size: 90%;
