@@ -7,7 +7,9 @@ body {
 }
 
 /* NAVBAR */
-
+.navbar {
+  background: linear-gradient(140deg, #139487, #86c6f4);
+}
 .nav-container {
   padding: 0%;
 }
@@ -24,12 +26,14 @@ body {
 }
 .result-page {
   padding-top: 15vh;
-  padding-left: 2vh;
+  padding-left: 3vh;
 }
 .details {
+  /* display: flex; */
   margin-top: 5vh;
   height: 120px;
   width: 100%;
   background-color: #f0f3f5;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 10px;
   /* background-color: #fff1ce; */
 }
