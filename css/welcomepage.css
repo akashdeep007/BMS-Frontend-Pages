@@ -1,4 +1,9 @@
 /* TAGS */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
 
 section{
     padding-top: 20px;
