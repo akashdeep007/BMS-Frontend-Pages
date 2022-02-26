@@ -1,10 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
 /* Primary color  */
 .bg-bms-primary {
     background-color: #139487;
 }
 
 .text-bms-primary{
-    color : #139487
+    color : #139487;
 }
 
 /* Secondary color  */
@@ -27,10 +34,10 @@
 
 /* BMS Yellow color  */
 .bg-bms-yellow {
-    background-color: #ffc107;
+    background-color: #D29D2B;
 }
 
 .text-bms-yellow {
-    color : #ffc107;
+    color : #D29D2B;
 }
 
