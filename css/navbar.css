@@ -19,3 +19,6 @@
     background-color: #fff1ce;
     color: #139487;
   }
+  footer {
+    background: linear-gradient(140deg, #139487, #86c6f4);
+  }
