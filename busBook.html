@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,10 +16,11 @@
         crossorigin="anonymous"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/util.css">
-    <link rel="stylesheet" href="css/busBook.css" >
-    
+    <link rel="stylesheet" href="css/busBook.css">
+    <link rel="stylesheet" href="css/navbar.css">
     <title>Book Bus</title>
 </head>
+
 <body>
 
     <!-- Navbar -->
@@ -48,7 +50,7 @@
                 </form>
             </div>
         </div>
-    </nav> 
+    </nav>
 
 
     <!-- Booking info section -->
@@ -57,33 +59,39 @@
             <div class="card">
                 <div class="card-body">
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><div class="row list-group-item-heading"><h4>Booking Information</h4></div></li>
                         <li class="list-group-item">
-                            
+                            <div class="row list-group-item-heading">
+                                <h4>Booking Information</h4>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+
                             <div class="row">
-                                <div class="col-lg-6"><i class="fa fa-city text-bms-primary"></i> From: 
-                                <span class="info-placeholder info-from">Kolkata</span></div>
-                                <div class="col-lg-6"><i class="fa fa-city text-bms-primary"></i> To: 
-                                <span class="info-placeholder info-to">Digha</span></div>
+                                <div class="col-lg-6"><i class="fa fa-city text-bms-primary"></i> From:
+                                    <span class="info-placeholder info-from">Kolkata</span>
+                                </div>
+                                <div class="col-lg-6"><i class="fa fa-city text-bms-primary"></i> To:
+                                    <span class="info-placeholder info-to">Digha</span>
+                                </div>
                             </div>
                         </li>
                         <li class="list-group-item">
                             <div class="row">
-                                <div class="col-lg-6"><i class="fa fa-bus-alt text-bms-primary"></i> Bus Name: 
-                                <span class="info-placeholder info-busname">City Express</span>
+                                <div class="col-lg-6"><i class="fa fa-bus-alt text-bms-primary"></i> Bus Name:
+                                    <span class="info-placeholder info-busname">City Express</span>
                                 </div>
                                 <div class="col-lg-6"><i class="fa fa-registered text-bms-primary"></i> Registration No:
-                                <span class="info-placeholder info-regno">xyz</span>
+                                    <span class="info-placeholder info-regno">xyz</span>
                                 </div>
                             </div>
                         </li>
                         <li class="list-group-item">
                             <div class="row">
-                                <div class="col-lg-6"><i class="fa fa-calendar-alt text-bms-primary"></i> Date: 
-                                <span class="info-placeholder info-date">13th Oct</span>
+                                <div class="col-lg-6"><i class="fa fa-calendar-alt text-bms-primary"></i> Date:
+                                    <span class="info-placeholder info-date">13th Oct</span>
                                 </div>
                                 <div class="col-lg-6"><i class="fa fa-clock text-bms-primary"></i> Time:
-                                <span class="info-placeholder info-time">10:30 am</span>
+                                    <span class="info-placeholder info-time">10:30 am</span>
                                 </div>
                             </div>
                         </li>
@@ -92,27 +100,30 @@
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <label for="seats" class="m-2">Seats</label>
-                                        <input type="number" name="seates" min="1" max="6" value="1" class="form-control m-2" id="seats">
-                                        <div class="error" id="seatError"></div>     
+                                        <input type="number" name="seates" min="1" max="6" value="1"
+                                            class="form-control m-2" id="seats">
+                                        <div class="error" id="seatError"></div>
                                     </div>
                                     <div class="col-lg-6">
                                         <label for="totalFare" class="m-2">Total fare</label>
-                                        <input type="number" name="totalFare" class="form-control m-2" id="totalFare" disabled>
+                                        <input type="number" name="totalFare" class="form-control m-2" id="totalFare"
+                                            disabled>
                                     </div>
                                 </div>
-                                
-                                
+
+
                                 <button type="submit" class="btn b g-bms-primary m-2 btn-block">Book Ticket</button>
-                              </form>
+                            </form>
                         </li>
-                        
-                      </ul>
+
+                    </ul>
                 </div>
             </div>
         </div>
 
     </section>
-    
+
     <script src="js/busBook.js"></script>
 </body>
+
 </html>
