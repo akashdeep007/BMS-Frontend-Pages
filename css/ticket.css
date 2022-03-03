@@ -1,0 +1,12 @@
+.details {
+    margin-top: 5vh;
+    width: 100%;
+  }
+
+  #pnr{
+      color: orangered;
+  }
+
+  .card {
+    box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);
+  }
